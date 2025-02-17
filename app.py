@@ -3,6 +3,7 @@ from dataTree import drive_data
 from css import add_custom_styles
 from menu import create_menu
 
+
 # # 添加自定义CSS样式
 st.markdown(add_custom_styles(), unsafe_allow_html=True)
 
@@ -20,9 +21,9 @@ with tab_drive:
             "<h3 style='color: #009999; text-align: left;'>SINAMICS系列驱动概览</h3>",
             unsafe_allow_html=True
         )
+
         st.image("./data/driver/sinamics/driver_category_1.png", use_container_width=True)
 
-        # st.image("./data/driver/sinamics/driver_category_2.png", use_container_width=True)
 
     with st.container(border=True):
         st.markdown(
